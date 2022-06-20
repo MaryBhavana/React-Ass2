@@ -1,0 +1,49 @@
+body{
+    background-image: url(./Wiretap.jpg);
+}
+.heading{
+    font-size:50px;
+    text-shadow: 2px 2px 5px skyblue;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
+input{
+    border-radius: 20px;
+    padding:10px;
+    width:250px;
+    position: relative;
+    left:20px;
+}
+.button{
+    font-size: 20px;
+    width:100px;
+    padding: 2px;
+    border: 2px solid goldenrod;
+}
+#blockContainer{
+    background-color: darkgray;
+    border: 3px solid black;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-size: 20px;
+}
+#block{
+    background-color: rgb(126, 126, 192);
+    width: 500px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #1e064a;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e064a;
+}
+
